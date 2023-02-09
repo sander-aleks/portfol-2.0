@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/ad.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    margin: 0; 
+    height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+.header{
+    background-color: royalblue;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+@media (max-width:1000px) {
+
+}
